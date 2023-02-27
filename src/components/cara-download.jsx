@@ -54,7 +54,7 @@ function Browser({ browser }) {
     <div className="rootMe container relative mx-auto min-h-screen items-center flex items-center justify-center">
       <div className="absolute top-5 left-0 scale-[1.2] text-sky-500 hover:text-sky-800 transition-all cursor-pointer sm:inline hidden ">
         {" "}
-        <Link to="/youtdownload">
+        <Link to="/">
           {" "}
           <Back />
         </Link>{" "}
