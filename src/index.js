@@ -8,7 +8,7 @@ import "./index.css";
 
 const router = createBrowserRouter([
   {
-    path: "/youtdownload",
+    path: "/",
     element: <App />,
     errorElement: <ErrorElement />,
   },
