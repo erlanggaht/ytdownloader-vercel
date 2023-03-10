@@ -1,11 +1,12 @@
 import React from 'react'
+import logoYoutube from '../aset/logoYoutube.png'
 
 function HeaderMain({darkMode}) {
   return (
     <>
        <div className="headerMain text-center flex flex-col items-center ">
           <div className="imageLogo">
-            <img src="https://img.icons8.com/wired/128/0ea5e9/youtube--v1.png" alt="logoyoutube"/>
+            <img src={logoYoutube} alt="logoyoutube"/>
           </div>
           <div className="title mt-2">
             <h1 className={`text-3xl sm:text-3xl text-slate-800  ${darkMode ? 'textDark' : ""}`}>
